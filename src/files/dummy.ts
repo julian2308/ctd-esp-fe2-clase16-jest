@@ -1,4 +1,4 @@
-const dummy = (shouldTriggerCallback: boolean, callback: () => void): void => {
+const dummy = (shouldTriggerCallback: boolean, callback: () => number): void => {
     if(shouldTriggerCallback) callback();
 }
 
